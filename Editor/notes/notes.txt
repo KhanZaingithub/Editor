@@ -1,0 +1,2 @@
+BrowserRouter --> react-router-dom used to change page
+<Route path='/' element={Home}></Route> --> redirect to page

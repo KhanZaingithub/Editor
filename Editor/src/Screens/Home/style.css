@@ -1,0 +1,30 @@
+/* .h-100{
+    height: 100vh;
+    background-color: red;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+*{
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+}
+ .p-custom{
+    color: #BCBCBC;
+    font-size: 1.2rem;
+ }
+.custom{
+    box-shadow: rgb(139, 139, 139) 0px 0px 4px 2px;
+    transition: all 0.5s;
+}
+.custom:hover{
+    scale: 1.05;
+    transition: all 0.5s;
+    background-color: white !important;
+}
+.icon-size{
+    font-size: 1.2rem;
+    padding-right: 0.3rem;
+}
+.mouse{
+    cursor: pointer;
+}
