@@ -9,6 +9,7 @@ import RightComponent from "./RightComponent";
 function index() {
   return (
     <Container fluid className="vh-100">
+      {/* left part */}
       <Row className="h-100">
         <Col className=" col-lg-5 " style={{ background: "#1E1E1E" }}>
           <Row className="h-100 align-items-center d-flex justify-content-center text-center">
@@ -21,7 +22,6 @@ function index() {
                   className="shadow-c m-auto align-items-center d-flex justify-content-center rounded-5"
                   variant="light"
                 >
-                  {" "}
                   <i className="icon-size bi bi-plus-lg"></i> Create New
                   Playground
                 </Button>
@@ -29,7 +29,7 @@ function index() {
             </Col>
           </Row>
         </Col>
-
+        {/* Right part */}
         <Col>
           <Row className="h-100 p-5">
             <RightComponent />

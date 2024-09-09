@@ -1,2 +1,10 @@
 BrowserRouter --> react-router-dom used to change page
 <Route path='/' element={Home}></Route> --> redirect to page
+
+
+Ui DESIGN firt page :-
+1. Left secton :- logo,text,button
+2. Right section :- Headind,repeat custom file structure
+
+for same data show on multiple page use import { createContext, useContext } from "react";
+for unique id uuid

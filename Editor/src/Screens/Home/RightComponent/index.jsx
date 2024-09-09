@@ -2,10 +2,11 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import React from "react";
 import "./style.css";
-import { useContext } from "react";
+import { useContext } from "react"; // used to import data from createContent
 import { PlaygroundContext } from "../../../PlaygroundProvider/provider";
 
-const FolderHTML = ({ folderTitle, subFolder}) => {
+// JS used to loop and run same code 
+const FolderHTML = ({ folderTitle, subFolder }) => {
   return (
     <div>
       {/* Heading */}
@@ -35,7 +36,7 @@ const FolderHTML = ({ folderTitle, subFolder}) => {
       </div>
       {/* Inner folder */}
       <Row>
-        {subFolder?.map((element,index) => {
+        {subFolder?.map((element, index) => {
           return (
             <Col className="col-lg-6" key={index}>
               <div className="custom d-flex justify-content-between align-items-center w-100 inner-folder p-Half my-3 rounded h-5 mouse">
@@ -81,8 +82,8 @@ function RightComponent() {
             <i className="icon-size bi bi-plus-lg"></i>New Folder
           </p>
         </div>
-        {/* Inner part */}
 
+        {/* Inner part */}
         {Folder?.map((element, index) => {
           return (
             <FolderHTML

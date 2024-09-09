@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { createContext, useContext } from "react";
-import { json } from "react-router-dom";
-import { v4 } from "uuid";
+import { v4 } from "uuid"; // used to generate unique id
 
 export const PlaygroundContext = createContext();
 
