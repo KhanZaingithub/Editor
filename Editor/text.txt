@@ -1,0 +1,3 @@
+Ui DESIGN firt page :-
+1. Left secton :- logo,text,button
+2. Right section :- Headind,repeat custom file structure

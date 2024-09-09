@@ -2,29 +2,30 @@
     height: 100vh;
     background-color: red;
 } */
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
 
-*{
-    font-family: "Play", sans-serif;
-    font-weight: 400;
+* {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
 }
- .p-custom{
-    color: #BCBCBC;
-    font-size: 1.2rem;
- }
-.custom{
-    box-shadow: rgb(139, 139, 139) 0px 0px 4px 2px;
-    transition: all 0.5s;
+.p-custom {
+  color: #bcbcbc;
+  font-size: 1.2rem;
 }
-.custom:hover{
-    scale: 1.05;
-    transition: all 0.5s;
-    background-color: white !important;
+.shadow-c {
+  box-shadow: rgb(139, 139, 139) 0px 0px 4px 2px ;
 }
-.icon-size{
-    font-size: 1.2rem;
-    padding-right: 0.3rem;
+.custom {
+  transition: 0.5s ease;
 }
-.mouse{
-    cursor: pointer;
+.custom:hover {
+  scale: 1.05;
+  transition: 0.5s ease;
+}
+.icon-size {
+  font-size: 1.2rem;
+  padding-right: 0.3rem;
+}
+.mouse {
+  cursor: pointer;
 }

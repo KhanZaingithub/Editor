@@ -1,0 +1,22 @@
+.bottom-border{
+    border-bottom: 1px solid rgb(152, 152, 152);
+}
+p{
+    margin-bottom: 0.5rem !important;
+}
+.file-color{
+    color: #FFA000;
+}
+.inner-folder{
+    box-shadow: rgb(152, 152, 152) 0px 0px 8px 0px ;
+    width: fit-content;
+}
+.p-Half{
+    padding: 0.5rem;
+}
+.h-5{
+    height: 5rem;
+}
+.w-24{
+    width: 25rem ;
+}
