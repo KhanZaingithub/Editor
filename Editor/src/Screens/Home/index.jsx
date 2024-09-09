@@ -18,12 +18,12 @@ function index() {
               <p className="p-custom">Code. Compile. Debug.</p>
               <div className="custom">
                 <Button
-                    className="shadow-c m-auto align-items-center d-flex justify-content-center rounded-5"
-                    variant="light"
+                  className="shadow-c m-auto align-items-center d-flex justify-content-center rounded-5"
+                  variant="light"
                 >
-                    {" "}
-                    <i className="icon-size bi bi-plus-lg"></i> Create New
-                    Playground
+                  {" "}
+                  <i className="icon-size bi bi-plus-lg"></i> Create New
+                  Playground
                 </Button>
               </div>
             </Col>
