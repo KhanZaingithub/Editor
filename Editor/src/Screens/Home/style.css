@@ -29,3 +29,17 @@
 .mouse {
   cursor: pointer;
 }
+.overflow-x{
+  overflow-x: scroll;
+}
+
+@media only screen and (max-width: 600px){
+  .m-h-100{
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .m-h-100{
+    height: 100%;
+  }
+}

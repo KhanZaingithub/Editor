@@ -38,7 +38,7 @@ const FolderHTML = ({ folderTitle, subFolder }) => {
       <Row>
         {subFolder?.map((element, index) => {
           return (
-            <Col className="col-lg-6" key={index}>
+            <Col className="col-12 col-lg-6" key={index}>
               <div className="custom d-flex justify-content-between align-items-center w-100 inner-folder p-Half my-3 rounded h-5 mouse">
                 <div className="image h-100 d-flex">
                   <div>

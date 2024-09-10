@@ -11,7 +11,7 @@ function index() {
     <Container fluid className="vh-100">
       {/* left part */}
       <Row className="h-100">
-        <Col className=" col-lg-5 " style={{ background: "#1E1E1E" }}>
+        <Col className="col-12 col-lg-5 m-h-100" style={{ background: "#1E1E1E" }}>
           <Row className="h-100 align-items-center d-flex justify-content-center text-center">
             <Col>
               <img src="img-1.png" className="img-fluid" />
@@ -30,8 +30,8 @@ function index() {
           </Row>
         </Col>
         {/* Right part */}
-        <Col>
-          <Row className="h-100 p-5">
+        <Col className="overflow-x">
+          <Row className="h-100 mt-5 mt-md-5 mt-lg-0 p-1 p-lg-5 p-md-0">
             <RightComponent />
           </Row>
         </Col>

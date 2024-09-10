@@ -20,3 +20,6 @@ p{
 .w-24{
     width: 25rem ;
 }
+.overflow-x{
+    overflow-x: scroll;
+}
