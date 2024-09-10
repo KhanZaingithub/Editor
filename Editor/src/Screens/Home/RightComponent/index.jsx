@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import React from "react";
 import "./style.css";
 import { useContext } from "react"; // used to import data from createContent
-import { PlaygroundContext } from "../../../PlaygroundProvider/provider";
+import { PlaygroundContext } from "../../../playgroundprovider/provider";
 
 // JS used to loop and run same code 
 const FolderHTML = ({ folderTitle, subFolder }) => {

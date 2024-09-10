@@ -3,7 +3,8 @@ import {BrowserRouter , Routes , Route} from 'react-router-dom'
 import Home from './Screens/Home'
 import Playground from './Screens/Playground'
 import Provider from './PlaygroundProvider/provider'
-import Modal from './PlaygroundProvider/Modal';
+import ModalProvider from './playgroundprovider/ModalProvider'
+import CurrentModal from './playgroundprovider/Modals/Modal'
 
 function App() {
  
@@ -11,14 +12,15 @@ function App() {
   return (
     <>
       <Provider>
-       <Modal>
+       <ModalProvider>
+       <CurrentModal/>
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/playground" element={<Playground/>}/>
           </Routes>
         </BrowserRouter>
-       </Modal>
+       </ModalProvider>
       </Provider>
     </>
   )
