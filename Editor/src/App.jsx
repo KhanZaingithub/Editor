@@ -2,7 +2,7 @@ import { useState } from 'react'
 import {BrowserRouter , Routes , Route} from 'react-router-dom'
 import Home from './Screens/Home'
 import Playground from './Screens/Playground'
-import Provider from "./PlaygroundProvider/provider.jsx";
+import Provider from './PlaygroundProvider/provider'
 import Modal from './PlaygroundProvider/Modal';
 
 function App() {
